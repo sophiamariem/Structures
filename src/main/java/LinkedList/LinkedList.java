@@ -54,4 +54,37 @@ public class LinkedList {
 
         return slowPointer.getData();
     }
+
+    public void reverseIteratively() {
+        Node curr = head;
+        Node previous = null;
+        Node next = null;
+
+        while (curr != null) {
+            next = curr.getNext(); // stash
+            curr.setNext(previous);
+            previous = curr;
+            curr = next;
+        }
+        head = previous;
+    }
+
+    public void reverseRecursively() {
+        head = reverseRec(head);
+    }
+
+    public Node reverseRec(Node node) {
+        if (node == null || node.getNext() == null) {
+            return node;
+        }
+
+        Node reverse = reverseRec(node.getNext());
+        node.getNext().setNext(node); // next node to now have me as next (reversed)
+        node.setNext(null); // delete previous link, otherwise loop
+        return reverse;
+    }
+
+    public Node getHead() {
+        return head;
+    }
 }
