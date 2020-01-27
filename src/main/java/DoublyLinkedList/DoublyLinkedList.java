@@ -60,4 +60,45 @@ public class DoublyLinkedList {
         }
         return -1;
     }
+
+    public void reverseIteratively() {
+        DoublyNode current = head;
+        DoublyNode prev = null;
+
+        while (current != null) {
+            prev = current.getPrevious();
+            current.setPrevious(current.getNext());
+            current.setNext(prev);
+            current = current.getPrevious();
+        }
+
+        if (prev != null) {
+            head = prev.getPrevious();
+        }
+    }
+
+    public void reverseRecursively() {
+        head = reverseRec(head);
+    }
+
+    public DoublyNode reverseRec(DoublyNode node) {
+        if (node == null) {
+            return null;
+        }
+
+        DoublyNode next = node.getNext();
+        node.setNext(node.getPrevious());
+        node.setPrevious(next);
+
+        // end of
+        if (node.getPrevious() == null) {
+            return node;
+        }
+
+        return reverseRec(node.getPrevious());
+    }
+
+    public DoublyNode getHead() {
+        return head;
+    }
 }

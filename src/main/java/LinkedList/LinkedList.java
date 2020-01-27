@@ -56,15 +56,15 @@ public class LinkedList {
     }
 
     public void reverseIteratively() {
-        Node curr = head;
+        Node current = head;
         Node previous = null;
-        Node next = null;
+        Node next;
 
-        while (curr != null) {
-            next = curr.getNext(); // stash
-            curr.setNext(previous);
-            previous = curr;
-            curr = next;
+        while (current != null) {
+            next = current.getNext(); // stash
+            current.setNext(previous);
+            previous = current;
+            current = next;
         }
         head = previous;
     }
