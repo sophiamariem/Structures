@@ -1,11 +1,11 @@
 import BinaryTreeTraversal.BinaryTree;
 import BinaryTreeTraversal.Node;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 public class BinaryTreeTraversalTest {
 
