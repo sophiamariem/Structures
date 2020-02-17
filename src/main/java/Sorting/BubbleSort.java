@@ -4,7 +4,7 @@ public class BubbleSort {
 
     public int[] bubbleSort(int[] array) {
         boolean isSorted = false;
-        //optimizematc, because once we get to the end of array at the first sweep, the last element of the array
+        //optimization, because once we get to the end of array at the first sweep, the last element of the array
         // will be in place, second sweep, second to last in place and so on, so can shrink unsorted portion
         int lastUnsorted = array.length - 1;
         while (!isSorted) {
