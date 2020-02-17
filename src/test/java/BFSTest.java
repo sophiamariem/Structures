@@ -1,11 +1,11 @@
-import GraphSearch.BFS;
-import org.junit.Test;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import GraphSearch.BFS;
+import org.junit.Test;
 
 public class BFSTest {
 
