@@ -10,7 +10,7 @@ public class HashTable {
     public HashTable() {
         table = new HashEntry[INITIAL_SIZE];
         for (int i = 0; i < INITIAL_SIZE; i++) {
-            table[i] = null; // one null key bit multiple null values
+            table[i] = null; // one null key but multiple null values
         }
     }
 

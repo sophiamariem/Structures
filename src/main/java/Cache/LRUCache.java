@@ -93,8 +93,8 @@ public class LRUCache {
         private String value;
 
         private LinkedListNode(int k, String v) {
-            key = k;
-            value = v;
+            this.key = k;
+            this.value = v;
         }
 
         public String getValue() {
