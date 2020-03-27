@@ -1,8 +1,9 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import DoublyLinkedList.DoublyLinkedList;
 import org.junit.Test;
+
+import DoublyLinkedList.DoublyLinkedList;
 
 public class DoublyLinkedListTest {
 

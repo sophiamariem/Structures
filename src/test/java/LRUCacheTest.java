@@ -1,7 +1,8 @@
 import static org.junit.Assert.assertEquals;
 
-import Cache.LRUCache;
 import org.junit.Test;
+
+import Cache.LRUCache;
 
 public class LRUCacheTest {
 

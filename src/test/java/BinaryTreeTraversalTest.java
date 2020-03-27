@@ -3,9 +3,10 @@ import static org.junit.Assert.assertTrue;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import org.junit.Test;
+
 import BinaryTreeTraversal.BinaryTree;
 import BinaryTreeTraversal.Node;
-import org.junit.Test;
 
 public class BinaryTreeTraversalTest {
 

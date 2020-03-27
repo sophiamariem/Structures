@@ -4,8 +4,9 @@ import static org.junit.Assert.assertTrue;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-import GraphSearch.DFSStack;
 import org.junit.Test;
+
+import GraphSearch.DFSStack;
 
 public class DFSStackTest {
 

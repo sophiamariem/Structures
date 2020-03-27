@@ -1,7 +1,8 @@
 import static org.junit.Assert.assertArrayEquals;
 
-import Sorting.QuickSort;
 import org.junit.Test;
+
+import Sorting.QuickSort;
 
 public class QuickSortTest {
 

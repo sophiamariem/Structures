@@ -1,7 +1,8 @@
 import static org.junit.Assert.assertArrayEquals;
 
-import Sorting.BubbleSort;
 import org.junit.Test;
+
+import Sorting.BubbleSort;
 
 public class BubbleSortTest {
 

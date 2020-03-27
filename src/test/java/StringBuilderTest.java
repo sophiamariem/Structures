@@ -1,7 +1,8 @@
 import static org.junit.Assert.assertEquals;
 
-import StringBuilder.StringBuilder;
 import org.junit.Test;
+
+import StringBuilder.StringBuilder;
 
 public class StringBuilderTest {
 

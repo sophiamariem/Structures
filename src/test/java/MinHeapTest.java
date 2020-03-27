@@ -1,8 +1,9 @@
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
-import Heaps.MinHeap;
 import org.junit.Test;
+
+import Heaps.MinHeap;
 
 public class MinHeapTest {
 

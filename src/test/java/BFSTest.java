@@ -4,8 +4,9 @@ import static org.junit.Assert.assertTrue;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-import GraphSearch.BFS;
 import org.junit.Test;
+
+import GraphSearch.BFS;
 
 public class BFSTest {
 

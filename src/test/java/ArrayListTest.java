@@ -1,8 +1,9 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
-import ArrayList.ArrayList;
 import org.junit.Test;
+
+import ArrayList.ArrayList;
 
 public class ArrayListTest {
 

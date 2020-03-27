@@ -1,7 +1,8 @@
 import static org.junit.Assert.assertArrayEquals;
 
-import Sorting.MergeSort;
 import org.junit.Test;
+
+import Sorting.MergeSort;
 
 public class MergeSortTest {
 

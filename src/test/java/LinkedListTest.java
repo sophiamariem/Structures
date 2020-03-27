@@ -1,7 +1,8 @@
 import static org.junit.Assert.assertEquals;
 
-import LinkedList.LinkedList;
 import org.junit.Test;
+
+import LinkedList.LinkedList;
 
 public class LinkedListTest {
 
